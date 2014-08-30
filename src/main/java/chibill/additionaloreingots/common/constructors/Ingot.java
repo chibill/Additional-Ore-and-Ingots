@@ -27,7 +27,7 @@ public class Ingot extends Item {
 	@SideOnly(Side.CLIENT)
 	public void registerIcons(IIconRegister ir) 
 	{
-		icons = ir.registerIcon(Main.MODID+":"+"ingot");
+		icons = ir.registerIcon("Minecraft:iron_ingot");
 	}
 	
 	@Override

@@ -1,7 +1,15 @@
+.gradle\*
 
-bin/*
-build/*
-eclipse/*
-.setting/*
-.gradle/*
-CREDITS-fml.txt
+eclipse\*
+
+bin\*
+
+.settings\*
+
+build\*
+
+gradle\*
+
+.classpath
+
+.project

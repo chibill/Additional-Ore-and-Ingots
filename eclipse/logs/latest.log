@@ -1,0 +1,27 @@
+[23:06:33] [main/INFO]: Setting user: ForgeDevName
+[23:06:34] [Client thread/INFO]: LWJGL Version: 2.9.1
+[23:06:39] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Additional Ore & Ingots
+[23:06:40] [Sound Library Loader/INFO]: Sound engine started
+[23:06:42] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:06:42] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:06:42] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Additional Ore & Ingots
+[23:06:43] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:06:43] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:06:44] [Sound Library Loader/INFO]: Sound engine started
+[23:06:49] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[23:06:49] [Server thread/INFO]: Generating keypair
+[23:06:50] [Server thread/INFO]: Preparing start region for level 0
+[23:06:51] [Server thread/INFO]: Changing view distance to 12, from 10
+[23:06:51] [Server thread/INFO]: ForgeDevName[local:E:51b20922] logged in with entity id 215 at (-69.35236411918845, 4.0, -341.7654901685884)
+[23:06:51] [Server thread/INFO]: ForgeDevName joined the game
+[23:06:59] [Server thread/INFO]: Saving and pausing game...
+[23:06:59] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:06:59] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:06:59] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:07:00] [Server thread/INFO]: Stopping server
+[23:07:00] [Server thread/INFO]: Saving players
+[23:07:00] [Server thread/INFO]: Saving worlds
+[23:07:00] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:07:00] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:07:00] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:07:13] [Client thread/INFO]: Stopping!

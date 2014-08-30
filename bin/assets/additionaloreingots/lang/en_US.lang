@@ -1,0 +1,16 @@
+
+language.name=English
+language.region=US
+language.code=en_US
+
+item.ingots.Copper.name=Copper Ingot
+item.ingots.Steel.name=Steel Ingot
+item.ingots.Tin.name=Tin Ingot
+item.ingots.Lead.name=Lead Ingot
+item.ingots.Chrome.name=Chrome Ingot
+item.ingots.Silver.name=Silver Ingot
+item.ingots.Brass.name=Brass Ingot
+item.ingots.Bronze.name=Bronze Ingot
+item.ingots.Stainless_Steel.name=Stainless Steel Ingot
+item.ingots.Zinc.name=Zinc Ingot
+item.ingots.Alunumim.name=Alunumim Ingot
