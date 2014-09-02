@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="chibill.additionaloreingots.common.constructors.IngotCompressed"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.FMLCommonHandler"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.eventhandler.SubscribeEvent"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.client.event.ConfigChangedEvent"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.config.ConfigElement"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.config.Configuration"/>
+<fullyQualifiedTypeName name="chibill.additionaloreingots.common.Main"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemBlockWithMetadata"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
+<fullyQualifiedTypeName name="net.minecraft.world.gen.feature.WorldGenerator"/>
+<fullyQualifiedTypeName name="net.minecraft.world.gen.feature.WorldGenMinable"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
+</qualifiedTypeNameHistroy>

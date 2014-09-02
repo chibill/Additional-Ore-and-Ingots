@@ -40,9 +40,9 @@ INDEX VERSION 1.126+C:\Users\bill\Documents\GitHub\Additional-Ore-and-Ingots\ecl
 2891629499.index
 2401439736.index
 286606776.index
+1817021980.index
 712865456.index
 301306133.index
-1817021980.index
 1409773696.index
 495375568.index
 2899061558.index
@@ -51,9 +51,9 @@ INDEX VERSION 1.126+C:\Users\bill\Documents\GitHub\Additional-Ore-and-Ingots\ecl
 205817184.index
 1326669174.index
 1885935624.index
-1336297964.index
-2270761316.index
 3091764365.index
+2270761316.index
+1336297964.index
 2287977772.index
 4168065991.index
 2808225264.index
@@ -67,8 +67,8 @@ INDEX VERSION 1.126+C:\Users\bill\Documents\GitHub\Additional-Ore-and-Ingots\ecl
 1582774349.index
 1315166437.index
 2146692042.index
-958914024.index
+771764056.index
 3482136116.index
 3707251904.index
 2914918437.index
-771764056.index
+958914024.index
