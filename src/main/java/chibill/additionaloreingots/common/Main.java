@@ -10,7 +10,6 @@ import net.minecraftforge.common.util.EnumHelper;
 import chibill.additionaloreingots.common.constructors.Ingot;
 import chibill.additionaloreingots.common.constructors.IngotCompressed;
 import chibill.additionaloreingots.common.constructors.Ore;
-import chibill.additionaloreingots.common.CommonProxy;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -74,13 +73,14 @@ public class Main {
 
 	@EventHandler 
 	public void load(FMLInitializationEvent event) {
-		GameRegistry.registerWorldGenerator(new OreGen(), 1);
+	//	GameRegistry.registerWorldGenerator(new OreGen(), 1);
 		proxy.registerRenderers();
 
 	}
 
 	@EventHandler 
 	public void postInit(FMLPostInitializationEvent event) {
+		GameRegistry.registerWorldGenerator(new OreGen(), 1);
 
 
 
