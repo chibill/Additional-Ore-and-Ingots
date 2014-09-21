@@ -18,22 +18,8 @@ public class Ore extends Block {
 		this.type = type;
 		this.setBlockName("ore"+Main.OresNames[type]);
 		this.setCreativeTab(CreativeTabs.tabBlock);
-
+		this.setBlockTextureName(Main.MODID + ":" + this.getUnlocalizedName().replaceFirst("tile.", ""));
 	}
 
-	@Override
-	public IIcon getIcon(int temp, int pass)
-	{
-		
-		return icons[type];
-	}
 	
-	
-	@SideOnly(Side.CLIENT)
-    public void registerBlockIcons(IIconRegister ir) {
-		
-		
-			icons[type] = ir.registerIcon(Main.MODID + ":" + this.getUnlocalizedName().replaceFirst("tile.", ""));
-
-	}
 }

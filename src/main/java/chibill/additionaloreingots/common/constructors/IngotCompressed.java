@@ -28,21 +28,7 @@ public class IngotCompressed extends Block {
 		this.type = type;
 		this.setBlockName("block"+Main.IngotsDustsBlocksNames[type]);
 		this.setCreativeTab(CreativeTabs.tabBlock);
-
-	}
-
-	@Override
-	public IIcon getIcon(int temp, int pass)
-	{
-		
-		return icons[type];
-	}
-	
-	
-	@SideOnly(Side.CLIENT)
-    public void registerBlockIcons(IIconRegister ir) {
-		
-	icons[type] = ir.registerIcon(Main.MODID + ":" + this.getUnlocalizedName().replaceFirst("tile.", ""));
+		this.setBlockTextureName(Main.MODID + ":" + this.getUnlocalizedName().replaceFirst("tile.", ""));
 	}
 
 }

@@ -7,6 +7,8 @@ import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.common.util.EnumHelper;
+import chibill.additionaloreingots.common.compatibility.OreDictionaryRegistry;
+import chibill.additionaloreingots.common.constructors.Dust;
 import chibill.additionaloreingots.common.constructors.Ingot;
 import chibill.additionaloreingots.common.constructors.IngotCompressed;
 import chibill.additionaloreingots.common.constructors.Ore;
@@ -28,9 +30,10 @@ public class Main {
 	public static Boolean DisableOreGen = false;
 	public static int OreDenistyMod = 1;
 	public static final String MODID = "additionaloreingots";
-	public static String[] IngotsDustsBlocksNames = new String[] {"Steel","Copper","Tin","Lead","Chrome","Silver","Brass","Bronze","Stainless_Steel","Zinc","Alunumim"};
-	public static String[] OresNames = new String[] {"Copper","Tin","Lead","Chrome","Silver","Zinc","Alunumim"};
+	public static String[] IngotsDustsBlocksNames = new String[] {"Steel","Copper","Tin","Lead","Chrome","Silver","Brass","Bronze","Stainless_Steel","Zinc","Aluminum"};
+	public static String[] OresNames = new String[] {"Copper","Tin","Lead","Chrome","Silver","Zinc","Aluminum"};
 	public static Item[] Ingots = new Item[IngotsDustsBlocksNames.length] ;
+	public static Item[] Dusts = new Item[IngotsDustsBlocksNames.length] ;
 	public static Block Compressed[] = new Block[IngotsDustsBlocksNames.length];
 	public static Block Ores[] = new Block[OresNames.length];
 
@@ -42,15 +45,21 @@ public class Main {
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-		for(int temp = 0;temp < IngotsDustsBlocksNames.length-1;++temp){
+		for(int temp = 0;temp < IngotsDustsBlocksNames.length;++temp){
 			
 			Ingots[temp] = new Ingot(temp);
 			Compressed[temp] = new IngotCompressed(temp);
 			GameRegistry.registerItem(Ingots[temp],Ingots[temp].getUnlocalizedName());
 			GameRegistry.registerBlock(Compressed[temp],Compressed[temp].getUnlocalizedName());
 		
+		}for(int temp = 0;temp < IngotsDustsBlocksNames.length;++temp){
+			
+			Dusts[temp] = new Dust(temp);
+			GameRegistry.registerItem(Dusts[temp],Dusts[temp].getUnlocalizedName());
+			
+		
 		}
-		for(int temp = 0;temp < OresNames.length-1;++temp){
+		for(int temp = 0;temp < OresNames.length;++temp){
 			
 			Ores[temp] = new Ore(temp);
 			GameRegistry.registerBlock(Ores[temp],Ores[temp].getUnlocalizedName());
@@ -60,7 +69,7 @@ public class Main {
 		FMLCommonHandler.instance().bus().register(Events.class);
 		 configFile = new Configuration(event.getSuggestedConfigurationFile());
 		 syncConfig();
-		 
+		 OreDictionaryRegistry.Register();
 	}
 
 	public static void syncConfig() {
@@ -73,15 +82,12 @@ public class Main {
 
 	@EventHandler 
 	public void load(FMLInitializationEvent event) {
-	//	GameRegistry.registerWorldGenerator(new OreGen(), 1);
+		GameRegistry.registerWorldGenerator(new OreGen(), 256);
 		proxy.registerRenderers();
-
 	}
 
 	@EventHandler 
 	public void postInit(FMLPostInitializationEvent event) {
-		GameRegistry.registerWorldGenerator(new OreGen(), 1);
-
 
 
 	}

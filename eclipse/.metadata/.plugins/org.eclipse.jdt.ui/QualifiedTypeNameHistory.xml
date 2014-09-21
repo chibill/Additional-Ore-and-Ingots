@@ -13,4 +13,6 @@
 <fullyQualifiedTypeName name="net.minecraft.world.gen.feature.WorldGenMinable"/>
 <fullyQualifiedTypeName name="net.minecraft.block.Block"/>
 <fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
+<fullyQualifiedTypeName name="chibill.additionaloreingots.common.CommonProxy"/>
+<fullyQualifiedTypeName name="chibill.additionaloreingots.common.constructors.Dust"/>
 </qualifiedTypeNameHistroy>

@@ -19,21 +19,8 @@ public class Ingot extends Item {
 		this.maxStackSize = 64;
 		this.setUnlocalizedName("ingot"+Main.IngotsDustsBlocksNames[type]);
 		this.setCreativeTab(CreativeTabs.tabMaterials);
+		this.setTextureName(Main.MODID+ ":" + this.getUnlocalizedName().replaceFirst("item.", ""));
 	}
-	@Override
-	@SideOnly(Side.CLIENT)
-	public void registerIcons(IIconRegister ir) 
-	{
-		icons[type] = ir.registerIcon(Main.MODID + ":" + this.getUnlocalizedName().replaceFirst("item.", ""));
-	
-	}
-	
-	
-	@Override
-	public IIcon getIcon(ItemStack stack, int pass)
-	{
-		// TODO Auto-generated method stub
-		return icons[type];
-	}
+
    
 }

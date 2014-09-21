@@ -22,7 +22,7 @@ public class OreGen implements IWorldGenerator {
 	    }
 	 }
 	private void GenerateNether(Random random, int i, int j, World world) {
-		addOreSpawn(Main.Ores[5], world, random, i, j, 3, 6, 3 * Main.OreDenistyMod, 1, 60,Blocks.netherrack);
+		addOreSpawn(Main.Ores[5], world, random, i, j, 3, 6, 30 * Main.OreDenistyMod, 1, 60,Blocks.netherrack);
 
 	}
 
@@ -32,12 +32,12 @@ public class OreGen implements IWorldGenerator {
 	}
 
 	private void GenerateOverworld(Random random, int i, int j, World world) {
-		addOreSpawn(Main.Ores[0], world, random, i, j, 3, 6, 2 * Main.OreDenistyMod, 1, 60,Blocks.stone);
-		addOreSpawn(Main.Ores[1], world, random, i, j, 3, 6, 2 * Main.OreDenistyMod, 1, 60,Blocks.stone);
-		addOreSpawn(Main.Ores[2], world, random, i, j, 3, 5, 3 * Main.OreDenistyMod, 1, 40,Blocks.stone);
-		addOreSpawn(Main.Ores[3], world, random, i, j, 1, 2, 2 * Main.OreDenistyMod, 1, 10,Blocks.stone);
-		addOreSpawn(Main.Ores[4], world, random, i, j, 1, 3, 1 * Main.OreDenistyMod, 1, 20,Blocks.stone);
-		addOreSpawn(Main.Ores[6], world, random, i, j, 6,10, 4 * Main.OreDenistyMod, 1, 60,Blocks.stone);
+		addOreSpawn(Main.Ores[0], world, random, i, j, 3, 6, 20 * Main.OreDenistyMod, 1, 100,Blocks.stone);
+		addOreSpawn(Main.Ores[1], world, random, i, j, 3, 6, 20 * Main.OreDenistyMod, 1, 60,Blocks.stone);
+		addOreSpawn(Main.Ores[2], world, random, i, j, 3, 5, 20 * Main.OreDenistyMod, 1, 40,Blocks.stone);
+		addOreSpawn(Main.Ores[3], world, random, i, j, 1, 2, 10 * Main.OreDenistyMod, 1, 10,Blocks.stone);
+		addOreSpawn(Main.Ores[4], world, random, i, j, 1, 3, 15 * Main.OreDenistyMod, 1, 20,Blocks.stone);
+		addOreSpawn(Main.Ores[6], world, random, i, j, 6,10, 30 * Main.OreDenistyMod, 1, 60,Blocks.stone);
 	}
 	
 	/**
@@ -60,6 +60,7 @@ public class OreGen implements IWorldGenerator {
 
    public void addOreSpawn(Block block, World world, Random random, int blockXPos, int blockZPos, int minVeinSize, int maxVeinSize, int chancesToSpawn, int minY, int maxY ,Block block2)
    {
+	   
 	 
 		  WorldGenMinable minable = new WorldGenMinable(block, (minVeinSize + random.nextInt(maxVeinSize - minVeinSize)), block2);
 	  
