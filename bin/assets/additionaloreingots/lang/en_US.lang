@@ -15,6 +15,18 @@ item.ingotStainless_Steel.name=Stainless Steel Ingot
 item.ingotZinc.name=Zinc Ingot
 item.ingotAluminum.name=Aluminum Ingot
 
+item.pileCopper.name=Copper Tiny Pile
+item.pileSteel.name=Steel Tiny Pile
+item.pileTin.name=Tin Tiny Pile
+item.pileLead.name=Lead Tiny Pile
+item.pileChrome.name=Chrome Tiny Pile
+item.pileSilver.name=Silver Tiny Pile
+item.pileBrass.name=Brass Tiny Pile
+item.pileBronze.name=Bronze Tiny Pile
+item.pileStainless_Steel.name=Stainless Steel Tiny Pile
+item.pileZinc.name=Zinc Tiny Pile
+item.pileAluminum.name=Aluminum Tiny Pile
+
 item.dustCopper.name=Copper Dust
 item.dustSteel.name=Steel Dust
 item.dustTin.name=Tin Dust
@@ -27,6 +39,18 @@ item.dustStainless_Steel.name=Stainless Steel Dust
 item.dustZinc.name=Zinc Dust
 item.dustAluminum.name=Aluminum Dust
 
+item.nuggetCopper.name=Copper Nugget
+item.nuggetSteel.name=Steel Nugget
+item.nuggetTin.name=Tin Nugget
+item.nuggetLead.name=Lead Nugget
+item.nuggetChrome.name=Chrome Nugget
+item.nuggetSilver.name=Silver Nugget
+item.nuggetBrass.name=Brass Nugget
+item.nuggetBronze.name=Bronze Nugget
+item.nuggetStainless_Steel.name=Stainless Steel Nugget
+item.nuggetZinc.name=Zinc Nugget
+item.nuggetAluminum.name=Aluminum Nugget
+
 tile.blockCopper.name=Copper Block
 tile.blockSteel.name=Steel Block
 tile.blockTin.name=Tin Block
@@ -37,7 +61,7 @@ tile.blockBrass.name=Brass Block
 tile.blockBronze.name=Bronze Block
 tile.blockStainless_Steel.name=Stainless Steel Block
 tile.blockZinc.name=Zinc Block
-tile.blockAlunumim.name=Alunumim Block
+tile.blockAluminum.name=Aluminum Block
 
 tile.oreCopper.name=Copper Ore
 tile.oreSteel.name=Steel Ore

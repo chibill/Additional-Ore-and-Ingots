@@ -1,7 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-<typeInfo handle="=Minecraft/C:\/Users\/bill\/.gradle\/caches\/minecraft\/net\/minecraftforge\/forge\/1.7.10-10.13.0.1180\/forgeSrc-1.7.10-10.13.0.1180.jar&lt;cpw.mods.fml.client(IModGuiFactory.class[IModGuiFactory" modifiers="1537" timestamp="1409414196809"/>
-<typeInfo handle="=Minecraft/C:\/Users\/bill\/.gradle\/caches\/minecraft\/net\/minecraftforge\/forge\/1.7.10-10.13.0.1180\/forgeSrc-1.7.10-10.13.0.1180.jar&lt;net.minecraftforge.client.model(IModelCustom.class[IModelCustom" modifiers="1537" timestamp="1409414196809"/>
-<typeInfo handle="=Minecraft/C:\/Users\/bill\/.gradle\/caches\/minecraft\/net\/minecraftforge\/forge\/1.7.10-10.13.0.1180\/forgeSrc-1.7.10-10.13.0.1180.jar&lt;net.minecraft.client.gui(GuiCommandBlock.class[GuiCommandBlock" modifiers="33" timestamp="1409414196809"/>
-<typeInfo handle="=Minecraft/C:\/Users\/bill\/.gradle\/caches\/minecraft\/net\/minecraftforge\/forge\/1.7.10-10.13.0.1180\/forgeSrc-1.7.10-10.13.0.1180.jar&lt;cpw.mods.fml.client.config(GuiConfig.class[GuiConfig" modifiers="33" timestamp="1409414196809"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>

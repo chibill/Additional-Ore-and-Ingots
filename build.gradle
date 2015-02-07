@@ -22,7 +22,8 @@ group= "chibill.additionaloreingots" // http://maven.apache.org/guides/mini/guid
 archivesBaseName = "additionaloreingots"
 
 minecraft {
-    version = "1.7.10-10.13.0.1180"
+    version = "1.8-11.14.0.1278-1.8"
+    mappings = 'snapshot_20141224'
     assetDir = "eclipse/assets"
 }
 
